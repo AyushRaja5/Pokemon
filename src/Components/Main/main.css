@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Chela+One&family=Roboto+Slab:wght@100;300;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Chela One', cursive;
+}
+
+body{
+    background-color:bisque;
+}
+
+.container{
+    width: 100%;
+    padding-top: 100px;
+    display: flex;
+}
+
+.left-content, .right-content{
+    flex-basis: 50%;
+}
+
+.left-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,0.5fr));
+    grid-gap: 2rem;
+    margin-left: 4rem;
+}
+
+.right-content{
+    text-align: center;
+    color: black;
+    top: 100px;
+    right: 100px;
+}
+
+.btn-group{
+    margin-left: 4rem;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+button{
+    outline: none;
+    border: none;
+    width: 150px;
+    padding: 0.3rem 0;
+    margin: 1rem;
+    font-size: 17px;
+    font-weight:lighter;
+    color: white;
+    background-color: coral;
+    border-radius: 8px;
+    justify-content: space-between;
+}

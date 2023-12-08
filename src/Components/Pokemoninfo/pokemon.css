@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 
+#img{
+    margin: 2rem;
+    height: 100px;
+    width: 200px;
+    background-color: yellow;
+}
+
+h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.5rem;
+} */
+
+/* .abilities{
+    width: 30%;
+    margin:auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1rem;
+} */
+
+/* .group{
+    background-color: coral;
+    color: white;
+    padding: 0.5rem;
+    font-size: 12px;
+    border-radius: 8px;
+}
+ */
+
+.contain{
+    display: flex;
+
+    .rght{
+        background-color: yellow;
+        width: auto;
+        .im{
+            width: 400px;
+            height: 400px;
+            justify-content: center;
+            align-items: center;
+            background-color: green;
+            margin: 0 10px;
+        }
+    }
+
+    .lft{
+        background-color: lightblue;
+        display: flex;
+        .base-stat{
+            align-self: end;
+        }
+    }
+}
